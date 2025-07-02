@@ -1,0 +1,132 @@
+
+*{margin: 0;padding: 0; color: #ffffff;
+        font-family:sans-serif;}
+
+
+    body{
+        background: linear-gradient(to right, #005ca7 , #000000);
+           width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    .continer{margin-top: 70px;
+        margin-bottom: 70px;
+        background-color: #1f1f1f31;
+    width: 90%;height: auto;
+border-radius: 40px;}
+
+h1{margin-left: 10px;}
+    h2{font-size: 70px;color: #52a3ff;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;}
+.content{display: flex;
+    justify-content: space-between;
+     align-items: center;
+    margin-left: 30px;}
+.myphoto{width: 400px; border-radius: 50%;
+     /* margin-right: 30px; */
+     margin-top: 50px;
+     box-shadow: -5px 0px 30px 20px #005ca7;
+    
+    }
+/* .content::after{
+    content: '';
+    position: absolute;
+    width:  100%;
+    height: 100%;
+    background:#005ca7;
+    clip-path: circle(40% at right 90%);
+animation-name: ring;
+    animation-duration: 2s;
+z-index: -1;} */
+
+
+p{width: 600px;margin: 0px;
+    padding: 10px;font-weight: 500;font-size: larger;}
+button{background-color: #0077ff;border: none;
+width: 80px;height: 30px;}
+
+.icons{margin-left: 40%;background-color: #005ca7;
+     border-radius: 30px;
+    width: 200px;
+    margin-bottom: 50px;
+height: 30px;padding: 1%;}
+.oooo{border-radius: 20px 0px 0px 20px;}
+.tttt{border-radius: 0px 20px 20px 0px;}
+
+
+
+
+.projectlist{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: grid;
+grid-template-columns: 1;
+grid-template-rows: auto;
+row-gap: 30px;
+}
+.projectlist div{ width: 90%; height: 550px;
+border-radius: 10px;
+border: 3px solid #005ca7;}
+
+hr{width: 80%; margin: 120px;}
+img{width: 100%; border-radius: 10px 10px 0px 0px ;}
+    
+h3{margin-left: 10px; color: #3da8ff;}
+.Skillslist{
+    margin-top: 5%;
+    margin-left: 5%;
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: 2;
+row-gap: 30px;}
+.Skillslist div{ 
+    width: 90%;
+border-radius: 10px;
+border: 3px solid #005ca7;}
+.Skillslist div h2{text-align: center;font-size: 40px;}
+button{border: 0px; border-radius: 30px;}
+
+
+@media (max-width:550px)
+{
+body{background-repeat: repeat;}
+.content{display: flex;
+flex-direction: column;
+margin-left: 0px;height: auto;justify-content: space-around;}
+h2{margin-top: 50px; font-size: 30px;}
+p{width: 350px; margin-bottom: 0px;}
+body::after{
+content: '';
+clip-path: circle(40% at bottom);}
+.buttons{margin-left: 150px;}
+hr{margin: 10px;margin: 40px;}
+.projectlist{margin-left: 6%;}
+.myphoto{width: 300px;}
+.content{text-align: center;height: 700px;}
+.projectlist div{height: 225px;border-radius: 10px;}
+.projectlist div p{font-size: 13px;width: 90%;}
+h3{font-size: 15px;margin-left: 10px; color: #3da8ff;}
+.icons{margin-left: 22%;background-color: #005ca7; border-radius: 30px;width: 200px;margin-bottom: 20px;padding: 3%;}
+.Skillslist div h2{text-align: center;font-size: 25px;height: 10px;margin: 2px;}
+.Skillslist{margin-left: 2%;}
+.Skillslist div{height: 40px;}
+}
+
+
+
+
+/* @keyframes ring{
+0%{clip-path: circle(5%);
+    width: 10px;
+    height: 10px;
+opacity: 0.25;}
+25%{clip-path: circle(10%);
+    opacity: 0.5;}
+75%{clip-path: circle(10%);
+    opacity: 0.75;}
+100%{
+    width: 100%;
+    height: 100%;
+    opacity:1;
+}} */
